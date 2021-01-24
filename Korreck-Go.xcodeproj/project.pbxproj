@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6AF8A0F25BE3B150031706F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AF8A0E25BE3B150031706F /* AppDelegate.swift */; };
+		E6AF8A1125BE3B150031706F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E6AF8A1025BE3B150031706F /* GameScene.sks */; };
+		E6AF8A1325BE3B150031706F /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = E6AF8A1225BE3B150031706F /* Actions.sks */; };
+		E6AF8A1525BE3B150031706F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AF8A1425BE3B150031706F /* GameScene.swift */; };
+		E6AF8A1725BE3B150031706F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AF8A1625BE3B150031706F /* ViewController.swift */; };
+		E6AF8A1925BE3B160031706F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6AF8A1825BE3B160031706F /* Assets.xcassets */; };
+		E6AF8A1C25BE3B160031706F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6AF8A1A25BE3B160031706F /* Main.storyboard */; };
+		E6AF8A2825BE3B160031706F /* Korreck_GoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AF8A2725BE3B160031706F /* Korreck_GoTests.swift */; };
+		E6AF8A3325BE3B160031706F /* Korreck_GoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AF8A3225BE3B160031706F /* Korreck_GoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6AF8A2425BE3B160031706F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6AF8A0325BE3B150031706F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6AF8A0A25BE3B150031706F;
+			remoteInfo = "Korreck-Go";
+		};
+		E6AF8A2F25BE3B160031706F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6AF8A0325BE3B150031706F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6AF8A0A25BE3B150031706F;
+			remoteInfo = "Korreck-Go";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E6AF8A0B25BE3B150031706F /* Korreck-Go.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Korreck-Go.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6AF8A0E25BE3B150031706F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E6AF8A1025BE3B150031706F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		E6AF8A1225BE3B150031706F /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		E6AF8A1425BE3B150031706F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		E6AF8A1625BE3B150031706F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E6AF8A1825BE3B160031706F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6AF8A1B25BE3B160031706F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6AF8A1D25BE3B160031706F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6AF8A1E25BE3B160031706F /* Korreck_Go.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Korreck_Go.entitlements; sourceTree = "<group>"; };
+		E6AF8A2325BE3B160031706F /* Korreck-GoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Korreck-GoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6AF8A2725BE3B160031706F /* Korreck_GoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Korreck_GoTests.swift; sourceTree = "<group>"; };
+		E6AF8A2925BE3B160031706F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6AF8A2E25BE3B160031706F /* Korreck-GoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Korreck-GoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6AF8A3225BE3B160031706F /* Korreck_GoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Korreck_GoUITests.swift; sourceTree = "<group>"; };
+		E6AF8A3425BE3B160031706F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6AF8A0825BE3B150031706F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6AF8A2025BE3B160031706F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6AF8A2B25BE3B160031706F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6AF8A0225BE3B150031706F = {
+			isa = PBXGroup;
+			children = (
+				E6AF8A0D25BE3B150031706F /* Korreck-Go */,
+				E6AF8A2625BE3B160031706F /* Korreck-GoTests */,
+				E6AF8A3125BE3B160031706F /* Korreck-GoUITests */,
+				E6AF8A0C25BE3B150031706F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6AF8A0C25BE3B150031706F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6AF8A0B25BE3B150031706F /* Korreck-Go.app */,
+				E6AF8A2325BE3B160031706F /* Korreck-GoTests.xctest */,
+				E6AF8A2E25BE3B160031706F /* Korreck-GoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6AF8A0D25BE3B150031706F /* Korreck-Go */ = {
+			isa = PBXGroup;
+			children = (
+				E6AF8A0E25BE3B150031706F /* AppDelegate.swift */,
+				E6AF8A1025BE3B150031706F /* GameScene.sks */,
+				E6AF8A1225BE3B150031706F /* Actions.sks */,
+				E6AF8A1425BE3B150031706F /* GameScene.swift */,
+				E6AF8A1625BE3B150031706F /* ViewController.swift */,
+				E6AF8A1825BE3B160031706F /* Assets.xcassets */,
+				E6AF8A1A25BE3B160031706F /* Main.storyboard */,
+				E6AF8A1D25BE3B160031706F /* Info.plist */,
+				E6AF8A1E25BE3B160031706F /* Korreck_Go.entitlements */,
+			);
+			path = "Korreck-Go";
+			sourceTree = "<group>";
+		};
+		E6AF8A2625BE3B160031706F /* Korreck-GoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6AF8A2725BE3B160031706F /* Korreck_GoTests.swift */,
+				E6AF8A2925BE3B160031706F /* Info.plist */,
+			);
+			path = "Korreck-GoTests";
+			sourceTree = "<group>";
+		};
+		E6AF8A3125BE3B160031706F /* Korreck-GoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E6AF8A3225BE3B160031706F /* Korreck_GoUITests.swift */,
+				E6AF8A3425BE3B160031706F /* Info.plist */,
+			);
+			path = "Korreck-GoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6AF8A0A25BE3B150031706F /* Korreck-Go */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6AF8A3725BE3B160031706F /* Build configuration list for PBXNativeTarget "Korreck-Go" */;
+			buildPhases = (
+				E6AF8A0725BE3B150031706F /* Sources */,
+				E6AF8A0825BE3B150031706F /* Frameworks */,
+				E6AF8A0925BE3B150031706F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Korreck-Go";
+			productName = "Korreck-Go";
+			productReference = E6AF8A0B25BE3B150031706F /* Korreck-Go.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6AF8A2225BE3B160031706F /* Korreck-GoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6AF8A3A25BE3B160031706F /* Build configuration list for PBXNativeTarget "Korreck-GoTests" */;
+			buildPhases = (
+				E6AF8A1F25BE3B160031706F /* Sources */,
+				E6AF8A2025BE3B160031706F /* Frameworks */,
+				E6AF8A2125BE3B160031706F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6AF8A2525BE3B160031706F /* PBXTargetDependency */,
+			);
+			name = "Korreck-GoTests";
+			productName = "Korreck-GoTests";
+			productReference = E6AF8A2325BE3B160031706F /* Korreck-GoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E6AF8A2D25BE3B160031706F /* Korreck-GoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6AF8A3D25BE3B160031706F /* Build configuration list for PBXNativeTarget "Korreck-GoUITests" */;
+			buildPhases = (
+				E6AF8A2A25BE3B160031706F /* Sources */,
+				E6AF8A2B25BE3B160031706F /* Frameworks */,
+				E6AF8A2C25BE3B160031706F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6AF8A3025BE3B160031706F /* PBXTargetDependency */,
+			);
+			name = "Korreck-GoUITests";
+			productName = "Korreck-GoUITests";
+			productReference = E6AF8A2E25BE3B160031706F /* Korreck-GoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6AF8A0325BE3B150031706F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					E6AF8A0A25BE3B150031706F = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					E6AF8A2225BE3B160031706F = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = E6AF8A0A25BE3B150031706F;
+					};
+					E6AF8A2D25BE3B160031706F = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = E6AF8A0A25BE3B150031706F;
+					};
+				};
+			};
+			buildConfigurationList = E6AF8A0625BE3B150031706F /* Build configuration list for PBXProject "Korreck-Go" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6AF8A0225BE3B150031706F;
+			productRefGroup = E6AF8A0C25BE3B150031706F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6AF8A0A25BE3B150031706F /* Korreck-Go */,
+				E6AF8A2225BE3B160031706F /* Korreck-GoTests */,
+				E6AF8A2D25BE3B160031706F /* Korreck-GoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6AF8A0925BE3B150031706F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6AF8A1125BE3B150031706F /* GameScene.sks in Resources */,
+				E6AF8A1925BE3B160031706F /* Assets.xcassets in Resources */,
+				E6AF8A1325BE3B150031706F /* Actions.sks in Resources */,
+				E6AF8A1C25BE3B160031706F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6AF8A2125BE3B160031706F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6AF8A2C25BE3B160031706F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6AF8A0725BE3B150031706F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6AF8A1725BE3B150031706F /* ViewController.swift in Sources */,
+				E6AF8A1525BE3B150031706F /* GameScene.swift in Sources */,
+				E6AF8A0F25BE3B150031706F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6AF8A1F25BE3B160031706F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6AF8A2825BE3B160031706F /* Korreck_GoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6AF8A2A25BE3B160031706F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6AF8A3325BE3B160031706F /* Korreck_GoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6AF8A2525BE3B160031706F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6AF8A0A25BE3B150031706F /* Korreck-Go */;
+			targetProxy = E6AF8A2425BE3B160031706F /* PBXContainerItemProxy */;
+		};
+		E6AF8A3025BE3B160031706F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6AF8A0A25BE3B150031706F /* Korreck-Go */;
+			targetProxy = E6AF8A2F25BE3B160031706F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E6AF8A1A25BE3B160031706F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6AF8A1B25BE3B160031706F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6AF8A3525BE3B160031706F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E6AF8A3625BE3B160031706F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E6AF8A3825BE3B160031706F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Korreck-Go/Korreck_Go.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V498Y35Y8U;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Korreck-Go/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.korrecksoftware.Korreck-Go";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E6AF8A3925BE3B160031706F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Korreck-Go/Korreck_Go.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V498Y35Y8U;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Korreck-Go/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.korrecksoftware.Korreck-Go";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E6AF8A3B25BE3B160031706F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V498Y35Y8U;
+				INFOPLIST_FILE = "Korreck-GoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.korrecksoftware.Korreck-GoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Korreck-Go.app/Contents/MacOS/Korreck-Go";
+			};
+			name = Debug;
+		};
+		E6AF8A3C25BE3B160031706F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V498Y35Y8U;
+				INFOPLIST_FILE = "Korreck-GoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.korrecksoftware.Korreck-GoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Korreck-Go.app/Contents/MacOS/Korreck-Go";
+			};
+			name = Release;
+		};
+		E6AF8A3E25BE3B160031706F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V498Y35Y8U;
+				INFOPLIST_FILE = "Korreck-GoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.korrecksoftware.Korreck-GoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Korreck-Go";
+			};
+			name = Debug;
+		};
+		E6AF8A3F25BE3B160031706F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V498Y35Y8U;
+				INFOPLIST_FILE = "Korreck-GoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.korrecksoftware.Korreck-GoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Korreck-Go";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6AF8A0625BE3B150031706F /* Build configuration list for PBXProject "Korreck-Go" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6AF8A3525BE3B160031706F /* Debug */,
+				E6AF8A3625BE3B160031706F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6AF8A3725BE3B160031706F /* Build configuration list for PBXNativeTarget "Korreck-Go" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6AF8A3825BE3B160031706F /* Debug */,
+				E6AF8A3925BE3B160031706F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6AF8A3A25BE3B160031706F /* Build configuration list for PBXNativeTarget "Korreck-GoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6AF8A3B25BE3B160031706F /* Debug */,
+				E6AF8A3C25BE3B160031706F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6AF8A3D25BE3B160031706F /* Build configuration list for PBXNativeTarget "Korreck-GoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6AF8A3E25BE3B160031706F /* Debug */,
+				E6AF8A3F25BE3B160031706F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6AF8A0325BE3B150031706F /* Project object */;
+}
