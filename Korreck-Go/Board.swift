@@ -54,12 +54,6 @@ class Board: Equatable {
     }
     
     func placeStone(player: Player, point: Point) {
-        assert(onGrid(point: point))
-        guard let _ = grid[point] else {
-            exit(-1)
-        }
-        
-        
         var adjacentSameColor: [Point] = []
         var adjacentOppositeColor: [Point] = []
         var liberties: [Point] = []
