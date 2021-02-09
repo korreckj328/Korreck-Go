@@ -16,6 +16,33 @@
 		E6AF8A1C25BE3B160031706F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6AF8A1A25BE3B160031706F /* Main.storyboard */; };
 		E6AF8A2825BE3B160031706F /* Korreck_GoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AF8A2725BE3B160031706F /* Korreck_GoTests.swift */; };
 		E6AF8A3325BE3B160031706F /* Korreck_GoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AF8A3225BE3B160031706F /* Korreck_GoUITests.swift */; };
+		E6E1703F25D1C6DD00DF613F /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E1703E25D1C6DD00DF613F /* Helpers.swift */; };
+		E6E1704425D1CA1A00DF613F /* Agent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E1704325D1CA1A00DF613F /* Agent.swift */; };
+		E6E1704925D1CB1200DF613F /* RandomBot.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E1704825D1CB1200DF613F /* RandomBot.swift */; };
+		E6E9E0EE25D216D400E72C28 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E9E0ED25D216D400E72C28 /* main.swift */; };
+		E6E9E10825D2172A00E72C28 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AF8A6525BE5D4B0031706F /* Board.swift */; };
+		E6E9E10925D2172A00E72C28 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6854BF925C0B1360080B8FB /* GameState.swift */; };
+		E6E9E10A25D2172A00E72C28 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AF8A5D25BE4CB20031706F /* Player.swift */; };
+		E6E9E10B25D2172A00E72C28 /* GoString.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AF8A4E25BE4C2A0031706F /* GoString.swift */; };
+		E6E9E10C25D2172A00E72C28 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AF8A5825BE4C7D0031706F /* Point.swift */; };
+		E6E9E10D25D2172A00E72C28 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E1704D25D1EE4400DF613F /* Utilities.swift */; };
+		E6E9E10E25D2172A00E72C28 /* SimpleGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E1705225D1FD1F00DF613F /* SimpleGame.swift */; };
+		E6E9E10F25D2172A00E72C28 /* go_types.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AF8A4425BE3B9F0031706F /* go_types.swift */; };
+		E6E9E11025D2172A00E72C28 /* go_board_slow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AF8A4925BE3BB00031706F /* go_board_slow.swift */; };
+		E6E9E11125D2172A00E72C28 /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AF8A5325BE4C5D0031706F /* Move.swift */; };
+		E6E9E11C25D2192300E72C28 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E1703E25D1C6DD00DF613F /* Helpers.swift */; };
+		E6E9E12125D2192C00E72C28 /* Agent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E1704325D1CA1A00DF613F /* Agent.swift */; };
+		E6E9E12625D2192F00E72C28 /* RandomBot.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E1704825D1CB1200DF613F /* RandomBot.swift */; };
+		E6E9E12B25D2193400E72C28 /* go_types.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AF8A4425BE3B9F0031706F /* go_types.swift */; };
+		E6E9E13025D2193700E72C28 /* go_board_slow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AF8A4925BE3BB00031706F /* go_board_slow.swift */; };
+		E6E9E13525D2193A00E72C28 /* GoString.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AF8A4E25BE4C2A0031706F /* GoString.swift */; };
+		E6E9E13A25D2194500E72C28 /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AF8A5325BE4C5D0031706F /* Move.swift */; };
+		E6E9E13B25D2194500E72C28 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AF8A5825BE4C7D0031706F /* Point.swift */; };
+		E6E9E13C25D2194500E72C28 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AF8A6525BE5D4B0031706F /* Board.swift */; };
+		E6E9E13D25D2194500E72C28 /* SimpleGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E1705225D1FD1F00DF613F /* SimpleGame.swift */; };
+		E6E9E13E25D2194500E72C28 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E1704D25D1EE4400DF613F /* Utilities.swift */; };
+		E6E9E13F25D2194500E72C28 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AF8A5D25BE4CB20031706F /* Player.swift */; };
+		E6E9E14025D2194500E72C28 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6854BF925C0B1360080B8FB /* GameState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +62,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		E6E9E0E925D216D400E72C28 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		E6854BF925C0B1360080B8FB /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 		E6AF8A0B25BE3B150031706F /* Korreck-Go.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Korreck-Go.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6AF8A0E25BE3B150031706F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6AF8A1025BE3B150031706F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -52,6 +92,20 @@
 		E6AF8A2E25BE3B160031706F /* Korreck-GoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Korreck-GoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6AF8A3225BE3B160031706F /* Korreck_GoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Korreck_GoUITests.swift; sourceTree = "<group>"; };
 		E6AF8A3425BE3B160031706F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6AF8A4425BE3B9F0031706F /* go_types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = go_types.swift; sourceTree = "<group>"; };
+		E6AF8A4925BE3BB00031706F /* go_board_slow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = go_board_slow.swift; sourceTree = "<group>"; };
+		E6AF8A4E25BE4C2A0031706F /* GoString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoString.swift; sourceTree = "<group>"; };
+		E6AF8A5325BE4C5D0031706F /* Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Move.swift; sourceTree = "<group>"; };
+		E6AF8A5825BE4C7D0031706F /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+		E6AF8A5D25BE4CB20031706F /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		E6AF8A6525BE5D4B0031706F /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		E6E1703E25D1C6DD00DF613F /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		E6E1704325D1CA1A00DF613F /* Agent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agent.swift; sourceTree = "<group>"; };
+		E6E1704825D1CB1200DF613F /* RandomBot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomBot.swift; sourceTree = "<group>"; };
+		E6E1704D25D1EE4400DF613F /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		E6E1705225D1FD1F00DF613F /* SimpleGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleGame.swift; sourceTree = "<group>"; };
+		E6E9E0EB25D216D400E72C28 /* Korreck-Go-CLT */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Korreck-Go-CLT"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6E9E0ED25D216D400E72C28 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +130,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E6E9E0E825D216D400E72C28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -85,6 +146,7 @@
 				E6AF8A0D25BE3B150031706F /* Korreck-Go */,
 				E6AF8A2625BE3B160031706F /* Korreck-GoTests */,
 				E6AF8A3125BE3B160031706F /* Korreck-GoUITests */,
+				E6E9E0EC25D216D400E72C28 /* Korreck-Go-CLT */,
 				E6AF8A0C25BE3B150031706F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,6 +157,7 @@
 				E6AF8A0B25BE3B150031706F /* Korreck-Go.app */,
 				E6AF8A2325BE3B160031706F /* Korreck-GoTests.xctest */,
 				E6AF8A2E25BE3B160031706F /* Korreck-GoUITests.xctest */,
+				E6E9E0EB25D216D400E72C28 /* Korreck-Go-CLT */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,6 +165,17 @@
 		E6AF8A0D25BE3B150031706F /* Korreck-Go */ = {
 			isa = PBXGroup;
 			children = (
+				E6AF8A4325BE3B5A0031706F /* Agent */,
+				E6AF8A4425BE3B9F0031706F /* go_types.swift */,
+				E6AF8A4925BE3BB00031706F /* go_board_slow.swift */,
+				E6AF8A4E25BE4C2A0031706F /* GoString.swift */,
+				E6AF8A5325BE4C5D0031706F /* Move.swift */,
+				E6AF8A5D25BE4CB20031706F /* Player.swift */,
+				E6AF8A5825BE4C7D0031706F /* Point.swift */,
+				E6AF8A6525BE5D4B0031706F /* Board.swift */,
+				E6854BF925C0B1360080B8FB /* GameState.swift */,
+				E6E1704D25D1EE4400DF613F /* Utilities.swift */,
+				E6E1705225D1FD1F00DF613F /* SimpleGame.swift */,
 				E6AF8A0E25BE3B150031706F /* AppDelegate.swift */,
 				E6AF8A1025BE3B150031706F /* GameScene.sks */,
 				E6AF8A1225BE3B150031706F /* Actions.sks */,
@@ -131,6 +205,24 @@
 				E6AF8A3425BE3B160031706F /* Info.plist */,
 			);
 			path = "Korreck-GoUITests";
+			sourceTree = "<group>";
+		};
+		E6AF8A4325BE3B5A0031706F /* Agent */ = {
+			isa = PBXGroup;
+			children = (
+				E6E1703E25D1C6DD00DF613F /* Helpers.swift */,
+				E6E1704325D1CA1A00DF613F /* Agent.swift */,
+				E6E1704825D1CB1200DF613F /* RandomBot.swift */,
+			);
+			path = Agent;
+			sourceTree = "<group>";
+		};
+		E6E9E0EC25D216D400E72C28 /* Korreck-Go-CLT */ = {
+			isa = PBXGroup;
+			children = (
+				E6E9E0ED25D216D400E72C28 /* main.swift */,
+			);
+			path = "Korreck-Go-CLT";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,13 +281,30 @@
 			productReference = E6AF8A2E25BE3B160031706F /* Korreck-GoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		E6E9E0EA25D216D400E72C28 /* Korreck-Go-CLT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6E9E0F125D216D400E72C28 /* Build configuration list for PBXNativeTarget "Korreck-Go-CLT" */;
+			buildPhases = (
+				E6E9E0E725D216D400E72C28 /* Sources */,
+				E6E9E0E825D216D400E72C28 /* Frameworks */,
+				E6E9E0E925D216D400E72C28 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Korreck-Go-CLT";
+			productName = "Korreck-Go-CLT";
+			productReference = E6E9E0EB25D216D400E72C28 /* Korreck-Go-CLT */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		E6AF8A0325BE3B150031706F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1230;
+				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
 					E6AF8A0A25BE3B150031706F = {
@@ -208,6 +317,9 @@
 					E6AF8A2D25BE3B160031706F = {
 						CreatedOnToolsVersion = 12.3;
 						TestTargetID = E6AF8A0A25BE3B150031706F;
+					};
+					E6E9E0EA25D216D400E72C28 = {
+						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
@@ -227,6 +339,7 @@
 				E6AF8A0A25BE3B150031706F /* Korreck-Go */,
 				E6AF8A2225BE3B160031706F /* Korreck-GoTests */,
 				E6AF8A2D25BE3B160031706F /* Korreck-GoUITests */,
+				E6E9E0EA25D216D400E72C28 /* Korreck-Go-CLT */,
 			);
 		};
 /* End PBXProject section */
@@ -265,8 +378,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6AF8A1725BE3B150031706F /* ViewController.swift in Sources */,
+				E6E9E10F25D2172A00E72C28 /* go_types.swift in Sources */,
 				E6AF8A1525BE3B150031706F /* GameScene.swift in Sources */,
+				E6E9E11025D2172A00E72C28 /* go_board_slow.swift in Sources */,
+				E6E1704425D1CA1A00DF613F /* Agent.swift in Sources */,
 				E6AF8A0F25BE3B150031706F /* AppDelegate.swift in Sources */,
+				E6E9E10825D2172A00E72C28 /* Board.swift in Sources */,
+				E6E9E10925D2172A00E72C28 /* GameState.swift in Sources */,
+				E6E9E10D25D2172A00E72C28 /* Utilities.swift in Sources */,
+				E6E1703F25D1C6DD00DF613F /* Helpers.swift in Sources */,
+				E6E9E10C25D2172A00E72C28 /* Point.swift in Sources */,
+				E6E9E10A25D2172A00E72C28 /* Player.swift in Sources */,
+				E6E9E11125D2172A00E72C28 /* Move.swift in Sources */,
+				E6E9E10B25D2172A00E72C28 /* GoString.swift in Sources */,
+				E6E1704925D1CB1200DF613F /* RandomBot.swift in Sources */,
+				E6E9E10E25D2172A00E72C28 /* SimpleGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +409,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6AF8A3325BE3B160031706F /* Korreck_GoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E9E0E725D216D400E72C28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E9E12625D2192F00E72C28 /* RandomBot.swift in Sources */,
+				E6E9E13525D2193A00E72C28 /* GoString.swift in Sources */,
+				E6E9E13C25D2194500E72C28 /* Board.swift in Sources */,
+				E6E9E12125D2192C00E72C28 /* Agent.swift in Sources */,
+				E6E9E0EE25D216D400E72C28 /* main.swift in Sources */,
+				E6E9E13F25D2194500E72C28 /* Player.swift in Sources */,
+				E6E9E13A25D2194500E72C28 /* Move.swift in Sources */,
+				E6E9E14025D2194500E72C28 /* GameState.swift in Sources */,
+				E6E9E13E25D2194500E72C28 /* Utilities.swift in Sources */,
+				E6E9E13D25D2194500E72C28 /* SimpleGame.swift in Sources */,
+				E6E9E13B25D2194500E72C28 /* Point.swift in Sources */,
+				E6E9E13025D2193700E72C28 /* go_board_slow.swift in Sources */,
+				E6E9E11C25D2192300E72C28 /* Helpers.swift in Sources */,
+				E6E9E12B25D2193400E72C28 /* go_types.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -554,6 +701,28 @@
 			};
 			name = Release;
 		};
+		E6E9E0EF25D216D400E72C28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V498Y35Y8U;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E6E9E0F025D216D400E72C28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V498Y35Y8U;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -589,6 +758,15 @@
 			buildConfigurations = (
 				E6AF8A3E25BE3B160031706F /* Debug */,
 				E6AF8A3F25BE3B160031706F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6E9E0F125D216D400E72C28 /* Build configuration list for PBXNativeTarget "Korreck-Go-CLT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6E9E0EF25D216D400E72C28 /* Debug */,
+				E6E9E0F025D216D400E72C28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
